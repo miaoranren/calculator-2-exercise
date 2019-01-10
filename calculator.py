@@ -24,8 +24,9 @@ while True:
         num2 = None
     else:
         num2 = tokens[2]
+
     result = None   
-    if not num1.isdigit() and num2.isdigit():
+    if not num1.isdigit()  or num2.isdigit() :
         print("There are not numbers!")
         break
     
